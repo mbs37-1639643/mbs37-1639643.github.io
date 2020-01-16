@@ -1,0 +1,88 @@
+.lg-header {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    display: flex;
+    padding-top: 3%;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.lg-header p {
+    font-size: small;
+    text-align: left;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+#paragraph-lower {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#profile-pic {
+    width: 40%;
+    vertical-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 5px grey;
+    float: left;
+}
+
+.social-box {
+    font-family: 'Oxygen Mono', sans-serif;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.social-box a {
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .lg-header {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3%;
+    }
+
+    #profile-pic {
+        width: 50%;
+        box-shadow: 3px 3px 5px grey;
+    }
+
+    .lg-header p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .social-box {
+        font-family: 'Oxygen Mono', sans-serif;
+        padding-top: 5%;
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    h1 {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 32px;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+}
